@@ -1,0 +1,23 @@
+[
+  {
+    "name": "力学1",
+    "startTime": 09:00,
+    "endTime": 10:30,
+    "roomNumber": "W222",
+    "infomation": "Week 1 Description"
+  },
+  {
+    "name": "電磁気学2",
+    "startTime": 09:00,
+    "endTime": 10:30,
+    "roomNumber": "W222",
+    "infomation": "Week 2 Description"
+  },
+  {
+    "name": "化学3",
+    "startTime": 09:00,
+    "endTime": 10:30,
+    "roomNumber": "W222",
+    "infomation": "Week 3 Description"
+  }
+]

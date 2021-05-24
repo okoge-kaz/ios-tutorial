@@ -7,16 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D41C5068265B7AD40055431C /* lecturesData.json in Resources */ = {isa = PBXBuildFile; fileRef = D41C5067265B7AD40055431C /* lecturesData.json */; };
+		D41C506B265B7B390055431C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C506A265B7B390055431C /* ModelData.swift */; };
+		D41C506E265B7BD50055431C /* LecturesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C506D265B7BD50055431C /* LecturesList.swift */; };
+		D41C5070265B7C600055431C /* LectureRow1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C506F265B7C600055431C /* LectureRow1.swift */; };
+		D41C5072265B7FB70055431C /* Lecture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C5071265B7FB70055431C /* Lecture.swift */; };
+		D41C5074265B98F70055431C /* LectureDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C5073265B98F70055431C /* LectureDetail.swift */; };
+		D41C5076265B9BD80055431C /* LectureRow2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C5075265B9BD80055431C /* LectureRow2.swift */; };
+		D41C5078265B9C710055431C /* LectureRow3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C5077265B9C710055431C /* LectureRow3.swift */; };
+		D41C507A265BA0730055431C /* ContentView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C5079265BA0730055431C /* ContentView2.swift */; };
+		D41C507C265BA0910055431C /* ContentView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = D41C507B265BA0910055431C /* ContentView3.swift */; };
 		D4B0A34A265A0D6900A2A070 /* TitechAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A349265A0D6900A2A070 /* TitechAppApp.swift */; };
-		D4B0A34C265A0D6900A2A070 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A34B265A0D6900A2A070 /* ContentView.swift */; };
+		D4B0A34C265A0D6900A2A070 /* ContentView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B0A34B265A0D6900A2A070 /* ContentView1.swift */; };
 		D4B0A34E265A0D6B00A2A070 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B0A34D265A0D6B00A2A070 /* Assets.xcassets */; };
 		D4B0A351265A0D6B00A2A070 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B0A350265A0D6B00A2A070 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D41C5067265B7AD40055431C /* lecturesData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = lecturesData.json; sourceTree = "<group>"; };
+		D41C506A265B7B390055431C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		D41C506D265B7BD50055431C /* LecturesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LecturesList.swift; sourceTree = "<group>"; };
+		D41C506F265B7C600055431C /* LectureRow1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureRow1.swift; sourceTree = "<group>"; };
+		D41C5071265B7FB70055431C /* Lecture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lecture.swift; sourceTree = "<group>"; };
+		D41C5073265B98F70055431C /* LectureDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureDetail.swift; sourceTree = "<group>"; };
+		D41C5075265B9BD80055431C /* LectureRow2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureRow2.swift; sourceTree = "<group>"; };
+		D41C5077265B9C710055431C /* LectureRow3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LectureRow3.swift; sourceTree = "<group>"; };
+		D41C5079265BA0730055431C /* ContentView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView2.swift; sourceTree = "<group>"; };
+		D41C507B265BA0910055431C /* ContentView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView3.swift; sourceTree = "<group>"; };
 		D4B0A346265A0D6900A2A070 /* TitechApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TitechApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4B0A349265A0D6900A2A070 /* TitechAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitechAppApp.swift; sourceTree = "<group>"; };
-		D4B0A34B265A0D6900A2A070 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D4B0A34B265A0D6900A2A070 /* ContentView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView1.swift; sourceTree = "<group>"; };
 		D4B0A34D265A0D6B00A2A070 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4B0A350265A0D6B00A2A070 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D4B0A352265A0D6B00A2A070 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -33,6 +53,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D41C5066265B7A540055431C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D41C5067265B7AD40055431C /* lecturesData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D41C5069265B7B180055431C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				D41C506A265B7B390055431C /* ModelData.swift */,
+				D41C5071265B7FB70055431C /* Lecture.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D41C506C265B7BAB0055431C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D41C506D265B7BD50055431C /* LecturesList.swift */,
+				D41C506F265B7C600055431C /* LectureRow1.swift */,
+				D41C5077265B9C710055431C /* LectureRow3.swift */,
+				D41C5075265B9BD80055431C /* LectureRow2.swift */,
+				D41C5073265B98F70055431C /* LectureDetail.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		D4B0A33D265A0D6900A2A070 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +101,13 @@
 		D4B0A348265A0D6900A2A070 /* TitechApp */ = {
 			isa = PBXGroup;
 			children = (
+				D41C506C265B7BAB0055431C /* View */,
+				D41C5069265B7B180055431C /* Model */,
+				D41C5066265B7A540055431C /* Resources */,
 				D4B0A349265A0D6900A2A070 /* TitechAppApp.swift */,
-				D4B0A34B265A0D6900A2A070 /* ContentView.swift */,
+				D4B0A34B265A0D6900A2A070 /* ContentView1.swift */,
+				D41C5079265BA0730055431C /* ContentView2.swift */,
+				D41C507B265BA0910055431C /* ContentView3.swift */,
 				D4B0A34D265A0D6B00A2A070 /* Assets.xcassets */,
 				D4B0A352265A0D6B00A2A070 /* Info.plist */,
 				D4B0A34F265A0D6B00A2A070 /* Preview Content */,
@@ -127,6 +181,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4B0A351265A0D6B00A2A070 /* Preview Assets.xcassets in Resources */,
+				D41C5068265B7AD40055431C /* lecturesData.json in Resources */,
 				D4B0A34E265A0D6B00A2A070 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +193,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4B0A34C265A0D6900A2A070 /* ContentView.swift in Sources */,
+				D41C5072265B7FB70055431C /* Lecture.swift in Sources */,
+				D41C507C265BA0910055431C /* ContentView3.swift in Sources */,
+				D41C5074265B98F70055431C /* LectureDetail.swift in Sources */,
+				D41C5076265B9BD80055431C /* LectureRow2.swift in Sources */,
+				D41C507A265BA0730055431C /* ContentView2.swift in Sources */,
+				D41C506E265B7BD50055431C /* LecturesList.swift in Sources */,
+				D4B0A34C265A0D6900A2A070 /* ContentView1.swift in Sources */,
+				D41C5070265B7C600055431C /* LectureRow1.swift in Sources */,
 				D4B0A34A265A0D6900A2A070 /* TitechAppApp.swift in Sources */,
+				D41C5078265B9C710055431C /* LectureRow3.swift in Sources */,
+				D41C506B265B7B390055431C /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
