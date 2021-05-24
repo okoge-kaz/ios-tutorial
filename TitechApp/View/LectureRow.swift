@@ -1,5 +1,5 @@
 //
-//  LectureRow2.swift
+//  LectureRow.swift
 //  TitechApp
 //
 //  Created by fujii kazuki on 2021/05/24.
@@ -7,26 +7,30 @@
 
 import SwiftUI
 
-struct LectureRow2: View {
+struct LectureRow: View {
+    
+    let lecture: Lecture
+    let primaryColor = Color(red:71/255, green:204/255, blue:186/255)
+    
     var body: some View {
         HStack {
                     Rectangle()
-                        .foregroundColor(Color.green)
+                        .foregroundColor(primaryColor)
                         .frame(maxWidth: 5, maxHeight: .infinity)
                     HStack() {
                         VStack(alignment: .leading) {
-                            Text("09:00")
+                            Text(lecture.startTime)
                                 .padding(.bottom, 10.0)
-                            Text("10:30")
+                            Text(lecture.endTime)
                                 .foregroundColor(.secondary)
                         }
                         .padding(.leading, 8.0)
                         .font(.subheadline)
                         
                         VStack(alignment: .leading) {
-                            Text("電磁気学2")
+                            Text(lecture.name)
                                 .padding(.bottom, 10.0)
-                            Text("Week 2 Description")
+                            Text(lecture.information)
                                 .foregroundColor(.secondary)
                         }
                         .padding(.leading, 8.0)
@@ -34,10 +38,10 @@ struct LectureRow2: View {
                         
                         Spacer()
                         
-                        Text("W222")
+                        Text(lecture.roomNumber)
                             .padding(.trailing)
                             .font(.subheadline)
-                            .foregroundColor(Color.green)
+                            .foregroundColor(primaryColor)
                     }
                     .padding(.vertical, 12.0)
                 }
@@ -46,8 +50,8 @@ struct LectureRow2: View {
     }
 
 
-struct LectureRow2_Previews: PreviewProvider {
+struct LectureRow_Previews: PreviewProvider {
     static var previews: some View {
-        LectureRow2()
+        LectureRow(lecture: lectures[0])
     }
 }

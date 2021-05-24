@@ -8,28 +8,29 @@
 import SwiftUI
 
 struct LecturesList: View {
+    
     var body: some View {
         NavigationView {
             List {
                 
                 NavigationLink(
-                    destination: ContentView1(),
+                    destination: ContentView(lecture: lectures[0], content: contents),
                     label: {
-                        LectureRow1()
+                        LectureRow(lecture: lectures[0])
                     }
                 )
                 
                 NavigationLink(
-                    destination: ContentView2(),
+                    destination: ContentView(lecture: lectures[1], content: contents),
                     label: {
-                        LectureRow2()
+                        LectureRow(lecture: lectures[1])
                     }
                 )
                 
                 NavigationLink(
-                    destination: ContentView3(),
+                    destination: ContentView(lecture: lectures[2], content: contents),
                     label: {
-                        LectureRow3()
+                        LectureRow(lecture: lectures[2])
                     }
                 )
             }

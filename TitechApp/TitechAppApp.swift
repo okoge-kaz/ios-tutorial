@@ -12,10 +12,6 @@ struct TitechAppApp: App {
     var body: some Scene {
         WindowGroup {
             LecturesList()
-                .onAppear {
-                    let l = load()
-                    print(l)
-            }
         }
     }
 }
