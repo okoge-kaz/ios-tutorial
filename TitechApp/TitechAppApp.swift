@@ -11,7 +11,7 @@ import SwiftUI
 struct TitechAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LecturesList()
         }
     }
 }
