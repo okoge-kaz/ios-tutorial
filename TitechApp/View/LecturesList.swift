@@ -12,13 +12,13 @@ struct LecturesList: View {
     var body: some View {
         NavigationView {
             List {
-                
                 NavigationLink(
                     destination: ContentView(lecture: lectures[0], content: contents),
                     label: {
                         LectureRow(lecture: lectures[0])
                     }
                 )
+                .listRowInsets(EdgeInsets())
                 
                 NavigationLink(
                     destination: ContentView(lecture: lectures[1], content: contents),
@@ -26,6 +26,7 @@ struct LecturesList: View {
                         LectureRow(lecture: lectures[1])
                     }
                 )
+                .listRowInsets(EdgeInsets())
                 
                 NavigationLink(
                     destination: ContentView(lecture: lectures[2], content: contents),
@@ -33,6 +34,7 @@ struct LecturesList: View {
                         LectureRow(lecture: lectures[2])
                     }
                 )
+                .listRowInsets(EdgeInsets())
             }
             .navigationTitle("スケジュール")
             .navigationBarTitleDisplayMode(.inline)

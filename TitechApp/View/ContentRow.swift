@@ -14,23 +14,23 @@ struct ContentRow: View {
     
     var body: some View {
         HStack {
-                Rectangle()
-                    .foregroundColor(primaryColor)
-                    .frame(maxWidth: 5, maxHeight: .infinity)
-                HStack() {
-                    VStack(alignment: .leading) {
-                        Text(individual.main)
-                            .padding(.bottom, 10.0)
-                        Text(individual.sub)
-                            .foregroundColor(.secondary)
-                    }
-                    .padding(.leading, 8.0)
-                    .font(.subheadline)
-                    Spacer()
+            Rectangle()
+                .foregroundColor(primaryColor)
+                .frame(maxWidth: 5, maxHeight: .infinity)
+            HStack() {
+                VStack(alignment: .leading) {
+                    Text(individual.main)
+                        .padding(.bottom, 10.0)
+                    Text(individual.sub)
+                        .foregroundColor(.secondary)
                 }
-                .padding(.vertical, 12.0)
+                .padding(.leading, 8.0)
+                .font(.subheadline)
+                Spacer()
             }
-            .frame(maxHeight: 110)
+            .padding(.vertical, 12.0)
+        }
+        .frame(maxHeight: 110)
     }
 }
 

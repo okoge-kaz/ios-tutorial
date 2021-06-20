@@ -19,19 +19,20 @@ let contents = [
 ]
 
 struct ContentView: View {
-    
     let lecture: Lecture
     let content: [Content]
     
     var body: some View {
-            List {
-                ContentRow(individual: content[0])
-                ContentRow(individual: content[1])
-                ContentRow(individual: content[2])
-                }
-            .navigationTitle(lecture.name)
-            .navigationBarTitleDisplayMode(.inline)
-        
+        List {
+            ContentRow(individual: content[0])
+                .listRowInsets(EdgeInsets())
+            ContentRow(individual: content[1])
+                .listRowInsets(EdgeInsets())
+            ContentRow(individual: content[2])
+                .listRowInsets(EdgeInsets())
+        }
+        .navigationTitle(lecture.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
